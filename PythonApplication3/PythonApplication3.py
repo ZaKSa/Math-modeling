@@ -15,6 +15,7 @@ class programm:
         self.entry_time_modeling.grid(row=0,column=1)
 
         self.label_alpha = tk.Label(text='Alpha')
+
         self.label_alpha.grid(row=0,column=2)
 
         self.entry_alpha = tk.Entry(textvariable=tk.StringVar(self.root,value='0.1'))
